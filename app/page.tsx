@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import TestApi from '@/components/TestApi'
  
 
 export default function Home() {
@@ -8,7 +9,8 @@ export default function Home() {
 
        <div className="flex-1 py-2">
         <h2 className='capitalize mb-8'>
-          All products
+          <TestApi>
+          </TestApi>
         </h2>
         <section className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 gap-4">
        
